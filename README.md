@@ -80,10 +80,3 @@ The goal of the project is to:
 - build a machine learning workflow for prediction
 - produce a final model for booking cancellation forecasting
 
-## License
-
-No explicit license file is currently included in the repository. If you plan to share or distribute the project publicly, consider adding a license such as MIT or Apache 2.0.
-
-## Acknowledgements
-
-This project is based on a hotel reservation dataset and was developed as part of the "Machine Learning and Data Analysis" coursework.
