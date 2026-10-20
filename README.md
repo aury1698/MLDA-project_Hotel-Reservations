@@ -56,7 +56,7 @@ Then open `hotel_reservations.ipynb` and run the cells in sequence.
 
 ## Workflow
 
-The notebook typically includes the following steps:
+The notebook includes the following steps:
 
 1. Importing libraries
 2. Loading the dataset
@@ -79,4 +79,3 @@ The goal of the project is to:
 - identify factors related to cancellations
 - build a machine learning workflow for prediction
 - produce a final model for booking cancellation forecasting
-
