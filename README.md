@@ -2,7 +2,7 @@
 
 This repository contains a Machine Learning project aimed at predicting hotel booking cancellations using exploratory data analysis (EDA), feature selection, SMOTE class balancing, and hyperparameter optimization via GridSearchCV. The main work is implemented in the notebook `hotel_reservations.ipynb`.
 
-Developed for the **Machine Learning** course at the **University of Perugia (UniPG)** – Department of Engineering. 
+Developed for the **Machine Learning** course at the **University of Perugia (UniPG)** – Department of Engineering.
 
 ---
 
@@ -63,6 +63,9 @@ Model training and hyperparameter search were executed using a custom `Pipeline`
   * Activation Functions: `tanh`, `relu`
   * Solvers: `adam`, `sgd`
   * L2 Regularization $\alpha$: $[10^{-4}, 10^{-3}, 0.01, 0.1, 1, 10, 100]$
+
+> **Note on Omitted Models (KNN & SVC)**:  
+> K-Nearest Neighbors (`KNeighborsClassifier`) and Support Vector Machines (`SVC`) were initially included in the search space design. However, due to high computational complexity and extended fitting times on the SMOTE-oversampled dataset (where dataset size doubled to ~47,000 samples), they were commented out prior to the final `GridSearchCV` run to optimize execution efficiency.
 
 ### Evaluation Metrics
 - **Classification Report**: Precision, Recall, F1-Score (Training & Test sets)
